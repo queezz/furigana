@@ -37,5 +37,6 @@ setup(name='furigana',
         	numpy>=1.10
         	mecab-python3
 		jaconv
+		unidic-lite
       		""",
 	)
