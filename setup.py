@@ -33,4 +33,9 @@ setup(name='furigana',
             'Topic :: Text Processing :: Linguistic',
 	    ],
 	keywords='Japanese Language Processing',
+        install_requires="""
+        	numpy>=1.10
+        	mecab-python3
+		jaconv
+      		""",
 	)
